@@ -13,7 +13,7 @@ Can machine learning models detect insider threats by learning anomalous pattern
 ## Dataset Source
 
 The intended dataset is the CERT Insider Threat Dataset from Carnegie Mellon University's CERT Division.
-
+Though the notebook also includes a small synthetic demo fallback so the workflow can run even when the real CERT files are not available.
 Expected CSV files include:
 
 - `logon.csv`
@@ -36,7 +36,6 @@ data/
   answers.csv or answers.tar.bz2
 ```
 
-The notebook also includes a small synthetic demo fallback so the workflow can run even when the real CERT files are not available. Any final report should use the real CERT data if the assignment requires empirical results.
 
 ## Project Structure
 
