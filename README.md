@@ -55,11 +55,16 @@ The notebook also includes a small synthetic demo fallback so the workflow can r
 ```
 
 ## Installation
+First, open Terminal and move into the project folder:
+
+```bash
+cd path/to/Insider-Threat-Detection-Project
 
 Create and activate a virtual environment:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
+
 source .venv/bin/activate
 ```
 
@@ -68,7 +73,6 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Running the Notebook
 
 PLEASE ALLOW ROUGHLY 245 SECONDS FOR ALL CELLS TO FINISH RUNNING
