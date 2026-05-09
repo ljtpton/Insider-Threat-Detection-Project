@@ -75,7 +75,7 @@ pip install -r requirements.txt
 ```
 ## Running the Notebook
 
-PLEASE ALLOW ROUGHLY 245 SECONDS FOR ALL CELLS TO FINISH RUNNING
+Please allow roughly 4-5 minutes for all cells to finish when using the CERT dataset. Runtime will be shorter with the demo dataset.
 
 Start JupyterLab:
 
